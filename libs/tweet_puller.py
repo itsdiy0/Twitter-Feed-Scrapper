@@ -23,8 +23,6 @@ def login(username,password):
     wait = WebDriverWait(driver, 20)
     wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, '[autocomplete="username"]'))).send_keys(username)
     driver.find_element(By.XPATH, "//span[text()='Next']").click()
-    # wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@data-testid='ocfEnterTextTextInput']"))).send_keys("Mason137122")
-    # driver.find_element(By.XPATH, "//span[text()='Next']").click()
     wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, '[autocomplete="current-password"]'))).send_keys(password)
     driver.find_element(By.XPATH, "//span[text()='Log in']").click()
 

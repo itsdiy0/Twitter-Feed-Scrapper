@@ -1,6 +1,6 @@
 package required :
 
-```
+```bash
 pip install chromedriver_py
 pip install Requests
 pip install selenium

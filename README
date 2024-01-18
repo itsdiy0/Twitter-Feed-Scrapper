@@ -1,12 +1,13 @@
 package required :
-````
+
 ```
 pip install chromedriver_py
 pip install Requests
 pip install selenium
 pip install selenium_wire
+
 ```
-````
+
 the purpose of this project is to stream and store tweets from the home page of your twitter account in a JSON file
 in main.py, select a duration for run time, your username and password and an address for your proxy list
 the proxy list file should only contain a proxy server in each line, the code will itterate through all proxies and
